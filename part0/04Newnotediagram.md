@@ -4,7 +4,6 @@ sequenceDiagram
     participant browser
     participant server
     user ->> browser: Click on button Save of form 
-    #activate browser 
     browser ->> server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
     #activate server
     Note left of server: Resource is redirected
