@@ -30,7 +30,7 @@ sequenceDiagram
     Note right of browser: The browser starts executing the JavaScript code that fetches the JSON from the server
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
     activate server
-    server-->>browser: [{ "content": "Another test by gangya, Again, "date": "2025-10-02T20:24:55.924Z" }, ... ]
+    server-->>browser: [{ "content": "New note by gangya, Again, "date": "2025-10-03T20:04:19.994Z" }, ... ]
     deactivate server
     Note right of browser: The browser executes the callback function that renders the notes
     
