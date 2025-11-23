@@ -11,7 +11,6 @@ const App = () => {
   const exercises2 = 7
   const part3 = 'State of a component'
   const exercises3 = 14
-
   return(
     <>
     <Header course={course} />
