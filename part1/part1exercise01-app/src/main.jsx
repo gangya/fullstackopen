@@ -1,21 +1,32 @@
 import ReactDOM, { createRoot } from 'react-dom/client'
-import { App } from './App'
-import { MatOperation } from './App'
+import { App, LeftRightClicks } from './App'
 import React from 'react'
-//import React from 'react'
 import { StrictMode } from 'react'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-   <React.StrictMode>
-    <App />
-   </React.StrictMode>
+console.log('program started...')
+
+createRoot(document.getElementById('root')).render( 
+<StrictMode>
+  <App />
+</StrictMode> )
+
+createRoot(document.getElementById('handleclicks')).render(
+  <StrictMode>
+    <LeftRightClicks />
+  </StrictMode>
 )
 
-createRoot(document.getElementById('operation')).render(
+/* ReactDOM.createRoot(document.getElementById('root')).render(
+   <React.StrictMode>
+    <CardApp />
+   </React.StrictMode>
+) */
+
+/* createRoot(document.getElementById('operation')).render(
   <StrictMode>
     <MatOperation />
   </StrictMode>
-)
+) */
 
 /*import ReactDOM from 'react-dom/client'
 
