@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "axios": "^1.15.0",
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0"
+  },
+  "name": "part2",
+  "version": "1.0.0",
+  "description": "Exercises for part 2 in fullstackopen Course",
+  "main": "JSexercises.js",
+  "devDependencies": {
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "json-server": "^1.0.0-beta.15"
+  },
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "json-server --port 3001 db.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
