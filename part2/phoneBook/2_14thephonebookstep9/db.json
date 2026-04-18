@@ -19,6 +19,16 @@
       "name": "Mary Poppendieck",
       "number": "39-23-6423122",
       "id": "4"
+    },
+    {
+      "name": "Juan sebastián",
+      "number": "87878744887",
+      "id": "YsV7DQ5r1bE"
+    },
+    {
+      "name": "Victoria Celeste",
+      "number": "87878744887",
+      "id": "RUFIobD54gk"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

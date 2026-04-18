@@ -5,6 +5,4 @@ export const Notification = ({messageToShow, displayType }) => {
     return (
         <p className={displayType}>{messageToShow}</p>
     )
-} 
-
-// export const ErrorMessage = ({messageToShow}) => <p className="success">{messageToShow}</p>
+}

@@ -19,6 +19,16 @@
       "name": "Mary Poppendieck",
       "number": "39-23-6423122",
       "id": "4"
+    },
+    {
+      "name": "juan sebastián Arrieta",
+      "number": "310547365223233",
+      "id": "Lm-Bk6lR1Qc"
+    },
+    {
+      "name": "juan Arrieta",
+      "number": "3105343447365223233",
+      "id": "Wdgf3MBiLkg"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
