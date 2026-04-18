@@ -3,5 +3,5 @@ export const Showlist = ({personsArray, methodToCallList}) =>
 )
 
 export const Person = ({personId, persoName, persoNumber, methodToCall}) =>  <p>
-    {persoName} {persoNumber}    <button onClick={() => methodToCall(personId, persoName) } >delete</button>
+    {persoName} {persoNumber}    <button onClick={() => methodToCall(personId, persoName) }>delete</button>
 </p>

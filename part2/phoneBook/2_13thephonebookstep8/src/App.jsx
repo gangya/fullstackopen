@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { SearchFilter } from './components/Searchfilter';
 import { Showlist } from './components/Showlist';
 import { Formfields } from './components/Formfields';
-import servicesNotes from './services/services'
+import servicesPersons from './services/services'
 
 function App() {
   // const [urldb, setUrlDB] = useState('http://localhost:3001/persons');
@@ -13,7 +13,7 @@ function App() {
   const [showList, setShowList] = useState([]);
 
   const listHook = () => {
-    servicesNotes
+    servicesPersons
     .getAll()
     .then(newShowList => {
       // console.log('newShowList ', newShowList);
@@ -51,7 +51,7 @@ const handleFilterChange = (event) => {
         // id: String(persons.length+1),
       }
       // console.log('newPerson ', newPerson);
-      servicesNotes
+      servicesPersons
       .createContact(newPerson)
       .then( newPersonCreated => {
         console.log('newPersonCreated: ', newPersonCreated);

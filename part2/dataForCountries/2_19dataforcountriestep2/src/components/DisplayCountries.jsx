@@ -36,8 +36,8 @@ export const ShowCountries = ({arrayOfCountriesToShow, arrayOfCountries, methodT
 <ShowCountryInfo countryIdx={countryIdx} arrayOfCountries={arrayOfCountries} />; */
 
 export const ShowCountryInfo = ({countryIdx, arrayOfCountries}) => {
-    console.log('countryIdx: ', countryIdx, 'arrayOfCountries', arrayOfCountries);
-    console.log('arrayOfCountries[countryIdx].name.common', arrayOfCountries[countryIdx].name.common);
+    // console.log('countryIdx: ', countryIdx, 'arrayOfCountries', arrayOfCountries);
+    // console.log('arrayOfCountries[countryIdx].name.common', arrayOfCountries[countryIdx].name.common);
     return (
     <>
     <h1>{arrayOfCountries[countryIdx].name.common}</h1>

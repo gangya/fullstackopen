@@ -2,19 +2,19 @@ import axios from 'axios';
 
 const urlBase = 'http://localhost:3001/persons';
 
-const getAll = async () => {
+const getAll = () => {
     const request = axios
     .get(urlBase);
     return request.then(response => response.data)
 }
 
-const createContact = async (newContact) => {
+const createContact = (newContact) => {
     const request = axios
     .post(urlBase, newContact);
     return request.then(response => response.data);
 }
 
-const deleteContact = async (idContact) => {
+const deleteContact = (idContact) => {
     const request = axios
     .delete(`${urlBase}/${idContact}`);
     return request.then(response => response.data);

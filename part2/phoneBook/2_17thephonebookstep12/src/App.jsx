@@ -42,7 +42,7 @@ function App() {
       } ,3000)
     })
     .catch(error => {
-      console.log('Request Error: ', error);
+      // console.log('Request Error: ', error);
       setMsgType('error');
       setNotification(`Request Error:  ${error}`);  
       setTimeout(() => {
@@ -99,7 +99,7 @@ const handleFilterChange = (event) => {
       }        
       )
       .catch(error => {
-        console.log('Request Error: ', error);
+        // console.log('Request Error: ', error);
         setMsgType('error');
         setNotification(`Request Error: ${error}`);
         setTimeout(() => {
@@ -132,7 +132,7 @@ const handleFilterChange = (event) => {
         }          
         )
         .catch(error => {
-          console.log('Request Error: ', error);
+          // console.log('Request Error: ', error);
           setMsgType('error');
           setNotification(`Request Error: ${error}`);
           setTimeout(() => {
@@ -159,7 +159,7 @@ const handleFilterChange = (event) => {
         setPersons(newShowList);
         setShowList(newShowList);
         // alert(`Contact ${persoName} deleted`);
-        console.log('Contact deleted: ', response);
+        // console.log('Contact deleted: ', response);
         return response.name
       }                
       )
@@ -184,7 +184,7 @@ const handleFilterChange = (event) => {
       }
       )
     }else{
-      console.log(`Keep contact ${persoName}`);
+      // console.log(`Keep contact ${persoName}`);
       alert(`Keep contact ${persoName}`);
     }
   }

@@ -3,29 +3,29 @@ import axios from 'axios';
 const urlBase = 'http://localhost:3001/persons';
 
 const getAll = async () => {
-    const request = axios
+    const request = await axios
     .get(urlBase);
-    return request.then(response => response.data)
+    return request.data
 }
 
 const createContact = async (newContact) => {
-    const request = axios
+    const request = await axios
     .post(urlBase, newContact);
-    return request.then(response => response.data);
+    return request.data;
 }
 
 const updateContact = async (oldContact) => {
-    const request = axios
+    const request = await axios
     .put(`${urlBase}/${oldContact.id}`, oldContact);
-    return request.then(response => response.data);
+    return request.data;
 /*     const response = await request;
     return response.data;
  */}
 
 const deleteContact = async (idContact) => {
-    const request = axios
+    const request = await axios
     .delete(`${urlBase}/${idContact}`);
-    return request.then(response => response.data);
+    return request.data;
 }
 
 export default{
