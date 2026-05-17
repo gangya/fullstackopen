@@ -48,7 +48,7 @@ function App() {
       setTimeout(() => {
         setMsgType(null);
         setNotification(null);
-      } ,3000)      
+      } ,3000);
     }
     );  
   }

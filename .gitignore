@@ -355,7 +355,7 @@ part2/data.txt
 part2/JSexercises.js
 part2/node_modules/
 part2/part2-exercise-notes-server-JSON/
-
+part2/part2-exercise-notes-server-Render/
 
 part2/couseInformation/2_1anecdotesstep6/.vscode/*
 part2/couseInformation/2_1anecdotesstep6/!.vscode/extensions.json
@@ -639,3 +639,12 @@ part3/phonebook/3_8thephonebookbackendstep8/*.njsproj
 part3/phonebook/3_8thephonebookbackendstep8/*.sln
 part3/phonebook/3_8thephonebookbackendstep8/*.sw?
 
+part3/phonebook/3_9thephonebookbackendstep9/.idea
+part3/phonebook/3_9thephonebookbackendstep9/.vscode/*
+part3/phonebook/3_9thephonebookbackendstep9/!.vscode/extensions.json
+part3/phonebook/3_9thephonebookbackendstep9/.DS_Store
+part3/phonebook/3_9thephonebookbackendstep9/*.suo
+part3/phonebook/3_9thephonebookbackendstep9/*.ntvs*
+part3/phonebook/3_9thephonebookbackendstep9/*.njsproj
+part3/phonebook/3_9thephonebookbackendstep9/*.sln
+part3/phonebook/3_9thephonebookbackendstep9/*.sw?

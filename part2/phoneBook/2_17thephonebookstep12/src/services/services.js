@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const urlBase = 'http://localhost:3001/persons';
+// const urlBase = 'http://localhost:3001/persons';
+const urlBase = '/api/persons';
 
 const getAll = async () => {
     const request = await axios
